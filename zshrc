@@ -35,6 +35,7 @@ fi
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
+#ZSH_THEME="apple"
 ZSH_THEME="crunch"
 
 # Uncomment the following line to use case-sensitive completion.
