@@ -109,16 +109,16 @@ bindsym $mod+F3 exec /opt/genymobile/genymotion/genymotion
 bindsym $mod+F4 exec /home/mbtamuli/.local/share/umake/android/android-studio/bin/studio.sh
 bindsym $mod+F5 exec /opt/idea-IC-145.1617.8/bin/idea.sh
 
-# To use i3lock
+# To use i3lock.
 bindsym Control+$mod+l exec i3-msg workspace 1 && i3lock -c 000000 -d
 
-# To mount and unmount USB drives
+# To mount and unmount USB drives.
 bindsym $mod+m exec --no-startup-id "udisksctl mount -b /dev/sdb1 && notify-send 'USB Disk mounted' && gnome-terminal -x ranger /media/$USER/"
 bindsym $mod+u exec --no-startup-id "udisksctl unmount -b /dev/sdb1 && notify-send 'USB Disk unmounted safely'"
 
-# To take screenshots, single window or fullscreen
+# To take screenshots, single window or fullscreen.
 bindsym Print exec scrot -u '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
 bindsym Shift+Print exec scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
 
-# Start Network Manager applet at startup
+# Start Network Manager applet at startup.
 exec --no-startup-id nm-applet
