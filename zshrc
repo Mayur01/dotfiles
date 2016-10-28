@@ -81,7 +81,7 @@ ZSH_THEME="crunch"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(docker)
 
-# User configuration
+# User configuration will be
 
   export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export PATH="$HOME/.Android/sdk/platform-tools:$PATH"
